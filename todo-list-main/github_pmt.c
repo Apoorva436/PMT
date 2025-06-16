@@ -89,4 +89,16 @@ Then clone your forked repo locally.
 🔹 Open Pull Request (from GitHub UI)
 Go to your branch → Click Compare & Pull Request → Submit
 
+git init                          # Start a repo
+git clone <url>                  # Copy GitHub repo
+git status                        # See current state
+git add filename                 # Stage a file
+git commit -m "msg"             # Save changes
+git push origin main            # Upload to GitHub
+git pull origin main            # Download latest
+git checkout -b branch-name     # New branch
+git merge branch-name           # Merge changes
+git remote -v                   # View remote URLs
+git branch -d branch-name       # Delete branch
+
 */
